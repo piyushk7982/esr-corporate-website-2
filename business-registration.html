@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business Registration Services | ESR Corporate Consultants LLP</title>
+<meta name="description" content="Professional assistance for company registration, LLP registration, startup registration, partnership registration, MSME, FSSAI and IEC registration with ESR Corporate Consultants LLP.">
+<link rel="canonical" href="https://www.esrcorporateconsultants.com/business-registration.html">
+<meta name="theme-color" content="#060d1f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Business Registration Services | ESR Corporate Consultants LLP">
+<meta property="og:description" content="Assistance with Private Limited, LLP, partnership, startup, MSME, FSSAI and IEC registration.">
+<meta property="og:url" content="https://www.esrcorporateconsultants.com/business-registration.html">
+<meta property="og:image" content="https://www.esrcorporateconsultants.com/logo_ESR.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Business Registration Services | ESR Corporate Consultants LLP">
+<meta name="twitter:description" content="Professional assistance for business registration and startup services.">
+<link rel="icon" href="logo_ESR.png">
+<link rel="stylesheet" href="style.css">
+<style>
+/* Business registration page only */
+.br-hero{padding:160px 0 96px;background:radial-gradient(circle at 72% 30%,#12285a,var(--navy) 65%)}
+.sc-core{display:grid;place-items:center;text-align:center;font-weight:800;letter-spacing:.16em;font-size:clamp(.85rem,2vw,1.05rem)}
+.sc-core span{background:linear-gradient(100deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.c7{top:-6px;left:40%;animation-delay:-6s}
+.cats{display:grid;grid-template-columns:repeat(12,1fr);gap:22px;perspective:1000px}
+.cat{grid-column:span 4;position:relative;display:flex;flex-direction:column;padding:28px;border-radius:24px;background:#fff;border:1px solid #dfe6f3;box-shadow:0 14px 40px rgba(11,23,48,.08);overflow:hidden;transition:transform .25s,box-shadow .3s,border-color .3s;will-change:transform}
+.cat:nth-child(-n+4){grid-column:span 3}
+.cat:hover{border-color:var(--gold);box-shadow:0 26px 60px rgba(11,23,48,.16),0 0 30px rgba(212,162,76,.2)}
+.cat .num{position:absolute;top:10px;right:18px;font-size:3.4rem;font-weight:800;line-height:1;color:rgba(11,23,48,.06)}
+.cat .ico{background:var(--navy)}
+.cat:hover .ico{transform:rotate(-8deg) scale(1.12)}
+.cat h3{font-size:1.2rem;margin-bottom:8px}
+.cat p{color:#2c3a57;font-size:.95rem}
+.cchips{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 20px}
+.cchips span{padding:5px 12px;border-radius:999px;font-size:.8rem;background:#eef2f9;border:1px solid #d8e0f0;color:var(--ink);transition:.25s}
+.cchips span:hover{background:var(--gold);border-color:var(--gold)}
+.cat .btn{margin-top:auto;align-self:flex-start;padding:10px 22px;font-size:.9rem}
+.sub{max-width:700px;margin:-16px 0 34px;font-size:1.1rem}
+.dk-sub{color:#c5d0e6}
+.opt .cards{grid-template-columns:repeat(4,1fr)}
+.opt .card p,.types .card p{max-height:none}
+.opt .card h3{color:var(--gold);letter-spacing:.06em;font-size:1rem}
+.more{margin-top:34px;text-align:center}
+.dchips{display:flex;flex-wrap:wrap;gap:12px}
+.dchip{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:14px;background:#fff;border:1px solid #d8e0f0;font:600 1rem inherit;font-family:inherit;color:var(--ink);cursor:pointer;box-shadow:0 6px 18px rgba(11,23,48,.06);transition:transform .25s,border-color .25s,background .25s;text-align:left}
+.dchip::before{content:"";flex-shrink:0;width:18px;height:18px;border-radius:6px;border:2px solid #b9c5dd;display:grid;transition:.25s}
+.dchip:hover{transform:translateY(-3px);border-color:var(--gold)}
+.dchip[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--gold)}
+.dchip[aria-pressed=true]::before{content:"✓";place-items:center;font-size:.75rem;background:var(--gold);border-color:var(--gold);color:#1a1204}
+.dnote{margin-top:26px;padding:14px 18px;border-left:3px solid var(--gold);background:#faf5ea;border-radius:0 12px 12px 0;color:#5c4820;font-size:.95rem}
+.why.w5 .wcard p{font-size:.88rem}
+.chain{display:flex;align-items:center;justify-content:center;margin:10px 0 34px}
+.cn{flex:1;min-width:0;text-align:center;padding:20px 8px;border-radius:18px;background:var(--navy);color:#fff;font-weight:700;font-size:.82rem;letter-spacing:.06em;box-shadow:0 14px 34px rgba(11,23,48,.25);border:1px solid rgba(212,162,76,.3);transition:transform .3s,box-shadow .3s,border-color .3s;animation:float 6s ease-in-out infinite}
+.cn:nth-of-type(2n){animation-delay:-3s}
+.cn.cur{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1204}
+a.cn:hover{transform:translateY(-6px);border-color:var(--gold);box-shadow:0 20px 40px rgba(11,23,48,.35),0 0 26px rgba(212,162,76,.35)}
+.cn small{display:block;margin-top:4px;font-size:.7rem;color:var(--gold2);font-weight:600;letter-spacing:0}
+.cl{flex:0 0 28px;height:4px;background:linear-gradient(90deg,var(--navy),var(--gold),var(--navy));background-size:200% 100%;animation:shine 3s linear infinite}
+.eco-note{max-width:680px;margin:0 auto;text-align:center;font-size:1.1rem}
+.cbox{max-width:820px;margin:0 auto;padding:56px 32px;border-radius:32px;background:linear-gradient(145deg,rgba(255,255,255,.1),rgba(255,255,255,.02));border:1px solid rgba(212,162,76,.3);backdrop-filter:blur(14px);box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.cbox .big{margin-bottom:16px}
+.cline{margin-top:22px;display:flex;gap:16px;flex-wrap:wrap}
+.cline a{color:var(--gold2);word-break:break-word}
+@media(max-width:1060px){
+ .cats{grid-template-columns:1fr 1fr}.cat,.cat:nth-child(-n+4){grid-column:auto}.cat:last-child{grid-column:1/-1}
+ .opt .cards{grid-template-columns:1fr 1fr}.br-hero .scene{height:400px}
+ .chain{flex-direction:column}.cn{width:min(100%,320px);flex:none}.cl{flex:none;width:4px;height:34px;background:linear-gradient(180deg,var(--navy),var(--gold),var(--navy))}
+}
+@media(max-width:640px){
+ .br-hero{padding:120px 0 60px}.cats,.opt .cards{grid-template-columns:1fr}.cat{padding:24px 20px}.cat:last-child{grid-column:auto}
+ .cbox{padding:38px 20px}.cline a{display:block}.dchip{width:100%}.c7{left:34%}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr" id="hdr">
+  <div class="hdr-bar">
+    <a href="index.html" class="logo" aria-label="ESR Corporate Consultants LLP home"><img src="logo_ESR.png" alt="ESR Corporate Consultants LLP logo" width="1795" height="540"></a>
+    <nav id="nav" class="nav" aria-label="Main navigation">
+      <a class="nav-link" href="index.html" style="--i:0">Home</a>
+      <a class="nav-link" href="about.html" style="--i:1">About</a>
+      <a class="nav-link" href="services.html" style="--i:2">Services</a>
+      <a class="nav-link active" href="business-registration.html" aria-current="page" style="--i:3">Business Registration</a>
+      <a class="nav-link" href="mca-roc-services.html" style="--i:4">MCA / ROC</a>
+      <a class="nav-link" href="accounting.html" style="--i:5">Accounting</a>
+      <a class="nav-link" href="tax-services.html" style="--i:6">Tax Services</a>
+      <a class="nav-link" href="gst-services.html" style="--i:7">GST Services</a>
+      <a class="nav-link" href="loans.html" style="--i:8">Loans</a>
+      <a class="nav-link" href="blog.html" style="--i:9">Blog</a>
+      <a class="nav-link" href="contact.html" style="--i:10">Contact</a>
+      <a class="hdr-cta" href="contact.html" style="--i:11">Get Consultation</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="br-hero">
+  <div class="grid-bg"></div><div class="glow g1"></div><div class="glow g2"></div>
+  <div class="wrap hero-in">
+    <div>
+      <p class="eyebrow rv">BUSINESS REGISTRATION</p>
+      <h1 class="rv" style="font-size:clamp(2.3rem,5.6vw,4.4rem)">Start Your Business.<br><span class="gold-t">Build It Right.</span></h1>
+      <p class="lead rv">Professional assistance for business registration, company incorporation and essential registrations for entrepreneurs and growing businesses.</p>
+      <div class="btns rv"><a class="btn btn-gold" href="contact.html">Get Registration Assistance</a><a class="btn btn-ghost" href="https://wa.me/918707470994" target="_blank" rel="noopener">WhatsApp Us</a></div>
+    </div>
+    <div class="scene rv" id="scene" aria-hidden="true">
+      <div class="core sc-core"><span>BUSINESS SETUP</span></div>
+      <span class="chip c1">PRIVATE LIMITED</span><span class="chip c2">LLP</span><span class="chip c3">STARTUP</span><span class="chip c4">PARTNERSHIP</span><span class="chip c5">MSME</span><span class="chip c6">FSSAI</span><span class="chip c7">IEC</span>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="registration-services">
+  <div class="wrap">
+    <p class="eyebrow dk rv">REGISTRATION SERVICES</p>
+    <h2 class="big rv">Business Registration <span class="gold-d">Services</span></h2>
+    <p class="sub rv">Choose the right registration structure for your business and get professional assistance through the process.</p>
+    <div class="cats">
+      <article class="cat tilt rv"><span class="num" aria-hidden="true">01</span><span class="ico">⌂</span><h3>Private Limited Company Registration</h3><p>Assistance with Private Limited Company incorporation and related registration requirements.</p><div class="cchips"><span>Company Incorporation</span><span>Director Setup</span><span>Basic Compliance</span></div><a class="btn btn-navy" href="contact.html" aria-label="Explore Private Limited Company Registration">Explore Service</a></article>
+      <article class="cat tilt rv"><span class="num" aria-hidden="true">02</span><span class="ico">⚖</span><h3>LLP Registration</h3><p>Professional assistance for registering a Limited Liability Partnership and setting up its basic structure.</p><div class="cchips"><span>LLP Formation</span><span>Partner Setup</span><span>Registration Support</span></div><a class="btn btn-navy" href="contact.html" aria-label="Explore LLP Registration">Explore Service</a></article>
+      <article class="cat tilt rv"><span class="num" aria-hidden="true">03</span><span class="ico">☺</span><h3>Partnership Registration</h3><p>Assistance with partnership firm registration and essential documentation.</p><div class="cchips"><span>Partnership Deed</span><span>Firm Registration</span><span>Documentation</span></div><a class="btn btn-navy" href="contact.html" aria-label="Explore Partnership Registration">Explore Service</a></article>
+      <article class="cat tilt rv"><span class="num" aria-hidden="true">04</span><span class="ico">↗</span><h3>Startup Registration</h3><p>Guidance for entrepreneurs looking to structure and register a new business.</p><div class="cchips"><span>Startup Setup</span><span>Registration Guidance</span><span>Documentation</span></div><a class="btn btn-navy" href="contact.html" aria-label="Explore Startup Registration">Explore Service</a></article>
+      <article class="cat tilt rv"><span class="num" aria-hidden="true">05</span><span class="ico">▤</span><h3>MSME / Udyam Registration</h3><p>Assistance with MSME/Udyam registration and related documentation.</p><div class="cchips"><span>Udyam Registration</span><span>Business Details</span><span>Documentation</span></div><a class="btn btn-navy" href="contact.html" aria-label="Explore MSME / Udyam Registration">Explore Service</a></article>
+      <article class="cat tilt rv"><span class="num" aria-hidden="true">06</span><span class="ico">✓</span><h3>FSSAI Registration</h3><p>Assistance with FSSAI registration or licensing requirements for eligible food businesses.</p><div class="cchips"><span>FSSAI Registration</span><span>Documentation</span><span>Business Support</span></div><a class="btn btn-navy" href="contact.html" aria-label="Explore FSSAI Registration">Explore Service</a></article>
+      <article class="cat tilt rv"><span class="num" aria-hidden="true">07</span><span class="ico">◎</span><h3>IEC Registration</h3><p>Assistance with Import Export Code registration for businesses involved in international trade.</p><div class="cchips"><span>IEC Registration</span><span>Import Export</span><span>Documentation</span></div><a class="btn btn-navy" href="contact.html" aria-label="Explore IEC Registration">Explore Service</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="dark opt" id="structure">
+  <div class="grid-bg"></div><div class="glow g3"></div>
+  <div class="wrap">
+    <p class="eyebrow rv">CHOOSING A STRUCTURE</p>
+    <h2 class="big rv">Which Business Structure Fits Your Business?</h2>
+    <div class="cards">
+      <div class="card tilt rv"><h3>PRIVATE LIMITED COMPANY</h3><p>Suitable for businesses seeking a formal company structure and separate legal identity.</p></div>
+      <div class="card tilt rv"><h3>LLP</h3><p>Suitable for businesses where partners want an LLP structure with limited liability.</p></div>
+      <div class="card tilt rv"><h3>PARTNERSHIP</h3><p>Suitable for businesses operated by partners under a partnership arrangement.</p></div>
+      <div class="card tilt rv"><h3>STARTUP / NEW BUSINESS</h3><p>For entrepreneurs evaluating registration and business setup options.</p></div>
+    </div>
+    <p class="dk-sub rv" style="margin-top:22px;text-align:center">The right structure depends on your business goals, ownership and applicable rules.</p>
+    <div class="more rv"><a class="btn btn-gold" href="contact.html">Discuss Your Business Setup</a></div>
+  </div>
+</section>
+
+<section class="light" id="journey">
+  <div class="wrap">
+    <p class="eyebrow dk rv">REGISTRATION JOURNEY</p>
+    <h2 class="big rv">From Idea To <span class="gold-d">Registration</span></h2>
+    <ol class="steps" id="steps">
+      <li class="rv"><b>01</b><h3>Understand</h3><p>Understand your business, structure and registration requirement.</p></li>
+      <li class="rv"><b>02</b><h3>Prepare</h3><p>Identify the required information and documentation.</p></li>
+      <li class="rv"><b>03</b><h3>Register</h3><p>Complete the relevant registration process and submissions.</p></li>
+      <li class="rv"><b>04</b><h3>Support</h3><p>Receive assistance with follow-up requirements and related compliance.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="glass-sec" id="documents">
+  <div class="wrap">
+    <p class="eyebrow dk rv">DOCUMENT CHECKLIST</p>
+    <h2 class="big rv">Common Documents &amp; <span class="gold-d">Information</span></h2>
+    <div class="dchips rv" role="group" aria-label="Documents checklist. Select the items you have.">
+      <button type="button" class="dchip" aria-pressed="false">PAN</button><button type="button" class="dchip" aria-pressed="false">Aadhaar / Identity Proof</button><button type="button" class="dchip" aria-pressed="false">Address Proof</button><button type="button" class="dchip" aria-pressed="false">Business Address Details</button><button type="button" class="dchip" aria-pressed="false">Photographs</button><button type="button" class="dchip" aria-pressed="false">Email &amp; Mobile Number</button><button type="button" class="dchip" aria-pressed="false">Bank Details where applicable</button><button type="button" class="dchip" aria-pressed="false">Business Constitution / Partnership Documents where applicable</button><button type="button" class="dchip" aria-pressed="false">Digital Signature where applicable</button><button type="button" class="dchip" aria-pressed="false">Other registration-specific information</button>
+    </div>
+    <p class="dnote rv">Exact requirements can vary depending on the business structure and registration. Tap items to tick off what you have ready.</p>
+  </div>
+</section>
+
+<section class="dark types" id="business-types">
+  <div class="grid-bg"></div><div class="glow g1"></div>
+  <div class="wrap">
+    <p class="eyebrow rv">WHO WE SUPPORT</p>
+    <h2 class="big rv">Support For Different Business Needs</h2>
+    <div class="cards">
+      <div class="card tilt rv"><span class="ico">☺</span><h3>NEW ENTREPRENEURS</h3><p>Starting your first business and need guidance on the registration process?</p></div>
+      <div class="card tilt rv"><span class="ico">⌂</span><h3>EXISTING BUSINESSES</h3><p>Need an additional registration or formal business structure?</p></div>
+      <div class="card tilt rv"><span class="ico">◈</span><h3>PROFESSIONALS &amp; SERVICE BUSINESSES</h3><p>Setting up a professional or service-oriented business?</p></div>
+      <div class="card tilt rv"><span class="ico">↗</span><h3>GROWING BUSINESSES</h3><p>Expanding operations and evaluating additional registrations?</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="why">
+  <div class="wrap">
+    <p class="eyebrow dk rv">WHY ESR</p>
+    <h2 class="big rv">Why Businesses Choose <span class="gold-d">Professional Assistance</span></h2>
+    <div class="why w5">
+      <div class="wcard rv"><span class="wi">◈</span><h3>Clear Process Guidance</h3><p>Understand each step before you proceed.</p></div>
+      <div class="wcard rv"><span class="wi">▤</span><h3>Documentation Support</h3><p>Know what information may be needed.</p></div>
+      <div class="wcard rv"><span class="wi">⌂</span><h3>Multiple Registration Services</h3><p>Several registrations coordinated in one place.</p></div>
+      <div class="wcard rv"><span class="wi">✓</span><h3>Business-Focused Assistance</h3><p>Support built around your business goals.</p></div>
+      <div class="wcard rv"><span class="wi">⌁</span><h3>Responsive Communication</h3><p>Stay in touch through convenient channels.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="glass-sec" id="ecosystem">
+  <div class="wrap">
+    <p class="eyebrow dk center rv">BUSINESS ECOSYSTEM</p>
+    <h2 class="big center rv">After Registration, <span class="gold-d">What Next?</span></h2>
+    <div class="chain rv">
+      <div class="cn cur">BUSINESS REGISTRATION</div><i class="cl" aria-hidden="true"></i>
+      <a class="cn" href="gst-services.html">GST<small>Explore →</small></a><i class="cl" aria-hidden="true"></i>
+      <a class="cn" href="accounting.html">ACCOUNTING<small>Explore →</small></a><i class="cl" aria-hidden="true"></i>
+      <a class="cn" href="mca-roc-services.html">MCA / ROC<small>Explore →</small></a><i class="cl" aria-hidden="true"></i>
+      <a class="cn" href="tax-services.html">TAX<small>Explore →</small></a><i class="cl" aria-hidden="true"></i>
+      <div class="cn">COMPLIANCE</div>
+    </div>
+    <p class="eco-note rv">Business registration is only the beginning. Your business may also need ongoing tax, accounting and compliance support.</p>
+  </div>
+</section>
+
+<section class="cta" id="cta">
+  <div class="glow g4"></div>
+  <div class="wrap center">
+    <div class="cbox rv">
+      <h2 class="big">Planning To Start A Business?</h2>
+      <p class="lead">Tell us about your business and registration requirement. Our team can help you understand the relevant process and documentation.</p>
+      <div class="btns"><a class="btn btn-gold" href="contact.html">Get Registration Assistance</a><a class="btn btn-ghost" href="https://wa.me/918707470994" target="_blank" rel="noopener">WhatsApp Us</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="faq">
+  <div class="wrap narrow">
+    <p class="eyebrow dk rv">FAQ</p>
+    <h2 class="big rv">Common <span class="gold-d">Questions.</span></h2>
+    <div class="faq">
+      <div class="qa rv"><h3><button aria-expanded="false">Which business structure should I choose?</button></h3><div class="ans"><p>It depends on factors such as your business goals, number of owners, liability preferences and applicable rules. No single structure suits every business. You can discuss your situation with our team to understand the available options.</p></div></div>
+      <div class="qa rv"><h3><button aria-expanded="false">What documents are generally required for registration?</button></h3><div class="ans"><p>Common items include PAN, identity and address proof, business address details, photographs and contact details. Exact requirements vary by business structure and registration type.</p></div></div>
+      <div class="qa rv"><h3><button aria-expanded="false">Can you help with Private Limited Company registration?</button></h3><div class="ans"><p>Yes. ESR provides assistance with Private Limited Company incorporation and related documentation, subject to applicable rules.</p></div></div>
+      <div class="qa rv"><h3><button aria-expanded="false">Can you assist with LLP registration?</button></h3><div class="ans"><p>Yes. We can assist with LLP registration and setting up its basic structure, subject to applicable rules and documentation.</p></div></div>
+      <div class="qa rv"><h3><button aria-expanded="false">Do you provide MSME/Udyam registration assistance?</button></h3><div class="ans"><p>Yes. Assistance is available for MSME/Udyam registration and related documentation, where the business is eligible.</p></div></div>
+      <div class="qa rv"><h3><button aria-expanded="false">Can you help with FSSAI and IEC registration?</button></h3><div class="ans"><p>Yes. We can assist with FSSAI registration or licensing for eligible food businesses and with Import Export Code registration, subject to applicable requirements.</p></div></div>
+      <div class="qa rv"><h3><button aria-expanded="false">Does every business need the same registrations?</button></h3><div class="ans"><p>No. Required registrations depend on the business activity, structure, location and applicable laws. We can help you understand which registrations may be relevant to you.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="contact">
+  <div class="grid-bg"></div>
+  <div class="wrap split">
+    <div class="rv">
+      <p class="eyebrow">CONTACT</p>
+      <h2 class="big" style="margin-bottom:24px">Talk To ESR.</h2>
+      <address><strong>ESR Corporate Consultants LLP</strong><br>18th, Hargobind Enclave,<br>Karkardooma, Anand Vihar,<br>Delhi, 110092<br><br>+91 8707470994<br>+91 8700533995<br>info@esrcorporateconsultants.com</address>
+    </div>
+    <div class="rv">
+      <div class="btns"><a class="btn btn-gold" href="contact.html">Get In Touch</a><a class="btn btn-ghost" href="tel:+918707470994">Call Now</a><a class="btn btn-ghost" href="https://wa.me/918707470994" target="_blank" rel="noopener">WhatsApp</a><a class="btn btn-ghost" href="mailto:info@esrcorporateconsultants.com">Email Us</a></div>
+      <p class="cline"><a href="tel:+918707470994">+91 8707470994</a><a href="tel:+918700533995">+91 8700533995</a><a href="mailto:info@esrcorporateconsultants.com">info@esrcorporateconsultants.com</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap fgrid">
+    <div><a href="index.html" class="logo"><img src="logo_ESR.png" alt="ESR Corporate Consultants LLP logo" width="1795" height="540" loading="lazy"></a><p>Professional tax, GST, compliance and business services from Karkardooma, Delhi.</p></div>
+    <div><h3>Company</h3><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+    <div><h3>Services</h3><a href="business-registration.html">Business Registration</a><a href="mca-roc-services.html">MCA / ROC</a><a href="accounting.html">Accounting</a><a href="tax-services.html">Tax Services</a><a href="gst-services.html">GST Services</a><a href="loans.html">Loans</a></div>
+    <div><h3>Resources</h3><a href="faq.html">FAQ</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms-and-conditions.html">Terms &amp; Conditions</a></div>
+    <div><h3>Contact</h3><a href="tel:+918707470994">+91 8707470994</a><a href="tel:+918700533995">+91 8700533995</a><a href="mailto:info@esrcorporateconsultants.com">info@esrcorporateconsultants.com</a><p>18th, Hargobind Enclave, Karkardooma, Anand Vihar, Delhi, 110092</p></div>
+  </div>
+  <p class="copy">© <span id="yr">2026</span> ESR Corporate Consultants LLP. All rights reserved.</p>
+</footer>
+
+<a class="wa" href="https://wa.me/918707470994" target="_blank" rel="noopener" aria-label="Chat with ESR on WhatsApp"><svg viewBox="0 0 24 24" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.2 13.9c-.2.6-1.300 1.200-1.800 1.200-.5.1-1 .2-3.300-.7-2.800-1.200-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.300 0 .5l-.4.600-.3.300c-.1.100-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.400.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.200.1.800-.1 1.300z"/></svg></a>
+
+<script>
+/* Page-specific script (main.js expects homepage-only elements, so it is not loaded here) */
+(function () {
+  'use strict';
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var hdr = $('#hdr'), burger = $('#burger'), nav = $('#nav');
+  function onScroll() { hdr.classList.toggle('scrolled', scrollY > 30); }
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  function setMenu(o) { nav.classList.toggle('open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Close menu' : 'Open menu'); }
+  burger.addEventListener('click', function () { setMenu(!nav.classList.contains('open')); });
+  $$('a', nav).forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
+  document.addEventListener('click', function (e) { if (nav.classList.contains('open') && !e.target.closest('.hdr-bar')) setMenu(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('open')) { setMenu(false); burger.focus(); } });
+  matchMedia('(min-width: 1300px)').addEventListener('change', function () { setMenu(false); });
+
+  var steps = $('#steps');
+  $$('.cats, .cards, .steps, .why, .faq').forEach(function (g) { $$('.rv', g).forEach(function (el, i) { el.style.setProperty('--d', ((i % 4) * 0.08) + 's'); }); });
+  var rvs = $$('.rv');
+  if ('IntersectionObserver' in window && !reduce) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        en.target.classList.add('in');
+        if (en.target.closest('.steps')) steps.classList.add('on');
+        io.unobserve(en.target);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    rvs.forEach(function (el) { io.observe(el); });
+  } else { rvs.forEach(function (el) { el.classList.add('in'); }); steps.classList.add('on'); }
+
+  if (matchMedia('(hover: hover) and (pointer: fine)').matches && !reduce) {
+    $$('.tilt').forEach(function (el) {
+      el.addEventListener('mousemove', function (e) {
+        var r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+        el.style.transform = 'translateY(-8px) rotateX(' + (-y * 6) + 'deg) rotateY(' + (x * 6) + 'deg)';
+      });
+      el.addEventListener('mouseleave', function () { el.style.transform = ''; });
+    });
+    var scene = $('#scene'), core = $('.core', scene);
+    scene.addEventListener('mousemove', function (e) {
+      var r = scene.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      core.style.transform = 'rotateY(' + (-14 + x * 16) + 'deg) rotateX(' + (8 - y * 16) + 'deg)';
+    });
+    scene.addEventListener('mouseleave', function () { core.style.transform = ''; });
+  }
+
+  $$('.dchip').forEach(function (c) {
+    c.addEventListener('click', function () { c.setAttribute('aria-pressed', c.getAttribute('aria-pressed') !== 'true'); });
+  });
+  $$('.qa button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var qa = b.closest('.qa'), o = !qa.classList.contains('open');
+      qa.classList.toggle('open', o); b.setAttribute('aria-expanded', o);
+    });
+  });
+  $('#yr').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
