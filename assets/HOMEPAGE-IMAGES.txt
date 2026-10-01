@@ -1,0 +1,11 @@
+ESR homepage image/video slots. Put files here; names must match exactly. Until a file exists, its slot shows a navy/gold placeholder.
+Folder: assets/images/home/  (WebP, ~80% quality, keep each under ~200 KB; hero under ~300 KB)
+hero-consultation.webp  1920x1080  consultant + client reviewing documents (dark/neutral left side works best; headline sits on the left)
+editorial-compliance.webp  1200x1500 (portrait)  owner + consultant at a desk
+svc-tax / svc-gst / svc-registration / svc-mca / svc-accounting / svc-labour / svc-trademark / svc-loans .webp  900x600 each
+journey-1 .. journey-5.webp  800x1070 (portrait)  start, register, comply, manage, grow
+support-start / support-comply / support-manage .webp  1000x1250 (portrait)
+why-1 / why-2 / why-3 .webp  1400x1000 (why-1 shows largest)
+video-poster.webp  1600x900 (first frame of the video)
+Video: assets/video/esr-story.mp4  15-30s, H.264, muted, ~1280x720, under ~4 MB. The video section stays hidden until this file exists.
+Alt text lives in index.html; edit it if your photo differs from the described scene.
